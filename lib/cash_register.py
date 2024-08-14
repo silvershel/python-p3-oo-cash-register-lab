@@ -32,3 +32,4 @@ class CashRegister:
             for _ in range(quantity):
                 self.items.remove(title)
             self.total -= price * quantity
+        #think about earlier transactions. In a real life example, would you want to be able to continue voiding?
